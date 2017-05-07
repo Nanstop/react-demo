@@ -2,9 +2,23 @@
     <head>
         <meta charset="utf-8">
         <title>React App</title>
+        <script src="https://unpkg.com/vue"></script>
     </head>
     <body>
         <div id = "app"></div>
+        <div id="header">
+          <p>{{ message }}</p>
+          <my-component></my-component>
+        </div>
+        <script src = "./src/components/header/header-factory.js"></script>
+        <!-- <script src = "./src/hijinks/dom.js"></script>
+        <script src = "./src/hijinks/event.js"></script>
+        <script src = "./src/hijinks/history.js"></script>
+        <script src = "./src/hijinks/modal-manager.js"></script>
+        <script src = "./src/hijinks/screen-manager.js"></script>
+        <script src = "./src/hijinks/ui-component-factory.js"></script>
+        <script src = "./src/hijinks/ui-control-factory.js"></script>
+        <script src = "./src/hijinks/ui-modal-factory.js"></script> -->
         <script src = "index.js"></script>
     </body>
 </html>
